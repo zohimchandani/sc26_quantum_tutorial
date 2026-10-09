@@ -345,25 +345,25 @@ def _eigsh_solve_ritz(alpha, beta, beta_k, k, which):
 
 
 def plot_skqd_convergence(csr_energies, lo_energies, dims,
-                          exact_ground_state_energy):
+                          fci_energies):
     plt.figure(figsize=(5, 4))
 
     plt.plot(dims,
-             csr_energies,
+             np.abs(csr_energies-fci_energies),
              'o-',
              linewidth=2,
              markersize=8,
              label='CSR eigsh')
     plt.plot(dims,
-             lo_energies,
+             np.abs(lo_energies-fci_energies),
              's--',
              linewidth=2,
              markersize=8,
              label='Matrix-free Lanczos')
-    plt.plot(dims, [exact_ground_state_energy] * len(dims),
+    plt.plot(dims, [1.6e-3] * len(dims),
              'g',
              linewidth=2,
-             label='Exact ground state')
+             label='Chemical Accuracy')
 
     plt.xticks(list(dims))
     plt.xlabel("Krylov Subspace Dimension", fontsize=12)
@@ -371,12 +371,13 @@ def plot_skqd_convergence(csr_energies, lo_energies, dims,
     plt.title("SKQD Ground State Energy Convergence", fontsize=14, pad=20)
     plt.legend(fontsize=10)
     plt.grid(True, alpha=0.3)
+    plt.yscale("log")
 
     max_diff = max(abs(a - b) for a, b in zip(csr_energies, lo_energies))
     plt.text(
         0.02,
         0.98,
-        f'Max solver difference: {max_diff:.2e}\nExact energy: {exact_ground_state_energy:.6f}',
+        f'Max solver difference: {max_diff:.2e}\nExact energy: {fci_energies:.6f}',
         transform=plt.gca().transAxes,
         verticalalignment='top',
         bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
