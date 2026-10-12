@@ -42,43 +42,6 @@ def calculate_cumulative_results(all_measurement_results):
 
 
 # =====================================================================
-#  Hamiltonian construction
-# =====================================================================
-
-
-def create_heisenberg_hamiltonian(n_spins: int, Jx: float, Jy: float,
-                                  Jz: float):
-
-    ham = 0
-
-    # Add two-qubit interaction terms for Heisenberg Hamiltonian
-    for i in range(0, n_spins - 1):
-        ham += Jx * spin.x(i) * spin.x(i + 1)
-        ham += Jy * spin.y(i) * spin.y(i + 1)
-        ham += Jz * spin.z(i) * spin.z(i + 1)
-
-    return ham
-
-
-def extract_coeffs_and_paulis(H: cudaq.SpinOperator):
-
-    coefficients = []
-    pauli_words = []
-    n_qubits = H.qubit_count
-
-    for term in H:
-
-        coefficients.append(term.evaluate_coefficient())
-        pauli_words.append(term.get_pauli_word(n_qubits))
-
-    coefficients = np.array(coefficients)
-    if np.allclose(coefficients.imag, 0):
-        coefficients = coefficients.real
-
-    return coefficients, pauli_words
-
-
-# =====================================================================
 #  Projected Hamiltonian — CSR (`vectorized` GPU/CPU)
 # =====================================================================
 
@@ -344,16 +307,16 @@ def _eigsh_solve_ritz(alpha, beta, beta_k, k, which):
 # =====================================================================
 
 
-def plot_skqd_convergence(csr_energies, lo_energies, dims,
+def plot_skqd_convergence(lo_energies, dims,
                           fci_energies):
     plt.figure(figsize=(5, 4))
 
-    plt.plot(dims,
-             np.abs(csr_energies-fci_energies),
-             'o-',
-             linewidth=2,
-             markersize=8,
-             label='CSR eigsh')
+    # plt.plot(dims,
+    #          np.abs(csr_energies-fci_energies),
+    #          'o-',
+    #          linewidth=2,
+    #          markersize=8,
+    #          label='CSR eigsh')
     plt.plot(dims,
              np.abs(lo_energies-fci_energies),
              's--',
@@ -373,14 +336,14 @@ def plot_skqd_convergence(csr_energies, lo_energies, dims,
     plt.grid(True, alpha=0.3)
     plt.yscale("log")
 
-    max_diff = max(abs(a - b) for a, b in zip(csr_energies, lo_energies))
-    plt.text(
-        0.02,
-        0.98,
-        f'Max solver difference: {max_diff:.2e}\nExact energy: {fci_energies:.6f}',
-        transform=plt.gca().transAxes,
-        verticalalignment='top',
-        bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
+    # max_diff = max(abs(a - b) for a, b in zip(csr_energies, lo_energies))
+    # plt.text(
+    #     0.02,
+    #     0.98,
+    #     f'Max solver difference: {max_diff:.2e}\nExact energy: {fci_energies:.6f}',
+    #     transform=plt.gca().transAxes,
+    #     verticalalignment='top',
+    #     bbox=dict(boxstyle='round', facecolor='wheat', alpha=0.8))
     plt.tight_layout()
     plt.show()
 

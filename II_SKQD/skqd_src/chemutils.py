@@ -3,7 +3,28 @@ from openfermionpyscf import run_pyscf
 from openfermion import get_fermion_operator, MolecularData
 from openfermion.transforms import jordan_wigner as of_jordan_wigner
 
-def water_geometry(bond_stretch: float = 1) -> list[tuple[str, tuple[float, float, float]]]:
+def get_random_configurations(orbitals: int, electrons: int | None = None, count: int =1000) -> np.ndarray:
+    """Sample random electron configurations."""
+
+    random_states = np.zeros((count, 2*orbitals))
+    
+    if electrons is None:
+        for ind in range(len(random_states)):
+            random_states[ind] = np.random.random_integers(2, size=(2*orbitals,))
+        random_states -= 1 
+    else:
+        for ind in range(len(random_states)):
+            hf_state = np.zeros(2*orbitals)
+            hf_state[:electrons] = 1
+            config = hf_state.copy()
+            config[::2]=config[::2][np.random.permutation(orbitals)]
+            config[1::2]=config[1::2][np.random.permutation(orbitals)]
+            random_states[ind] = config
+            
+    return random_states
+
+
+def get_water_geometry(bond_stretch: float = 1) -> list[tuple[str, tuple[float, float, float]]]:
     """Build raw xyz string of water for a single changing O----H bond length.
     """
     
