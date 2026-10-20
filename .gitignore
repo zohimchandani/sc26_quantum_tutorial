@@ -9,3 +9,6 @@ I_LRZ_HPCQC/notes/
 # Python build artifacts (pip install of II_SKQD)
 build/
 *.egg-info/
+
+# MAC stuff
+.DS_Store
