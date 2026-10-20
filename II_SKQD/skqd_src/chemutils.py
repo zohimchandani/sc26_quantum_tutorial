@@ -4,6 +4,55 @@ from openfermion import get_fermion_operator, MolecularData
 from openfermion.transforms import jordan_wigner as of_jordan_wigner
 import matplotlib.pyplot as plt
 
+def sample_krylov_evolution_circuit(pauli_words: list[str],
+                                    coefficients: list[float],
+                                    n_qdrift_samples: int,
+                                    evolution_time: float,
+                                    max_krylov_power: int,
+                                    shot_count: int,
+                                    ) -> dict:
+    """
+    Sample the Krylov evolution circuit for a given power k.
+
+    Args:
+        max_krylov_power: Maximum power k for computing U^k|ψ⟩
+        shot_count: Number of shots to sample
+        shots_count: Number of shots to sample
+    """
+
+    sim_measurements = []
+    unique_bitstrings = set()
+    
+    
+    qdrift_terms, angles = sample_qdrift_terms(pauli_words, coefficients, n_qdrift_samples, evolution_time)
+    
+
+    for krylov_power in range(max_krylov_power):
+        t0 = time.perf_counter()
+
+        sampling_result = cudaq.sample(
+            quantum_krylov_circuit,
+            molecule.n_qubits,
+            molecule.n_electrons,
+            krylov_power,
+            qdrift_terms,
+            angles,
+            qdrift,
+            shots_count=shot_count,
+        )
+
+        sim_measurements.append(dict(sampling_result.items()))
+        unique_bitstrings.update(sampling_result)
+
+        print(
+            f"Krylov state U^{krylov_power}: {len(sampling_result)} unique bitstrings "
+            f"{len(unique_bitstrings)} cumulative "
+            f"({time.perf_counter() - t0:.1f} s)"
+        )
+
+    cumulative_results = calculate_cumulative_results(sim_measurements)
+    return cumulative_results
+
 def plot_qdrift_terms(required_qdrift_terms, coefficients):
     qdrift_lambda = np.sum(coefficients)
     times = np.logspace(1, 4)
@@ -16,13 +65,28 @@ def plot_qdrift_terms(required_qdrift_terms, coefficients):
     plt.legend()
     plt.show()
 
-def plot_ci_convergence(random, hf, charge, spin, reference_energy):
-    counts = [i*100 for i in range(len(random))] 
-    plt.plot(counts, random-reference_energy, label="Random")
-    plt.plot(counts, hf-reference_energy, label="HF")
-    plt.plot(counts, charge-reference_energy, label="Charge")
-    plt.plot(counts, spin-reference_energy, label="Spin")
-    plt.plot(counts, [1.6e-3]*len(random), color = 'k' ,linestyle = ":")
+def plot_ci_convergence(reference_energy, random=None, hf=None, charge=None, spin=None, skqd=None):
+    
+    vals = {
+        "Random":random,
+        "HF":hf,
+        "Charge":charge,
+        "Spin":spin,
+        "SKQD":skqd,
+            }
+    vals = {k:v for k,v in vals.items() if v is not None}
+    counts = []
+    
+    for name,data in vals.items():
+        if type(data) is list:
+            data = np.array(data)
+
+        if len(counts) == 0:
+            counts = [i*100 for i in range(len(data))] 
+        plt.plot(counts, data-reference_energy, label=name)
+    
+        if len(counts)!=0:
+            plt.plot(counts, [1.6e-3]*len(counts), color = 'k' ,linestyle = ":")
     plt.legend()
     plt.title("Accuracy of Selected Configuration Interaction")
     plt.xlabel("N Configurations")
