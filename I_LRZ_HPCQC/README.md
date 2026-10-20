@@ -52,9 +52,12 @@ Then, make sure the notebook uses the kernel named **LRZ-HPCQC**. Otherwise, cha
 
 7. Run the cells from top to bottom.
 
+When you are done, use **File → Shut Down** (or shut down the kernel). That frees the GPU slice for others.
+
+  <img src="docs/figures/shutdown.png" alt="Shutdown Notebook" width="500">
+
 **Notes**:
-- When you are done, use **File → Shut Down** (or shut down the kernel). That frees the GPU slice
-  for others. The next two sessions (Part II: SKQD, Part III: QEC) open their own notebooks and
+- The next two sessions (Part II: SKQD, Part III: QEC) open their own notebooks and
   may start a new Jupyter server, so shut down this one before moving on.
 - The LRZ-HPCQC kernel runs on an internal HPCQC cluster, not on the portal itself: plots are shown in the notebook, but the results are computed on the cluster.
 - If the login page says "no state cookie", the login took too long: just try again.
