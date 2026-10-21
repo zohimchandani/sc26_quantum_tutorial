@@ -1,0 +1,689 @@
+2026-10-21 12:38:14,985: ferrmion.utils: 41: DEBUG: Logging initialised.
+2026-10-21 12:41:46,363: ferrmion.encode.ternary_tree: 681: DEBUG: Creating Jordan-Wigner encoding tree
+2026-10-21 12:41:46,364: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:46,364: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:41:46,367: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,084: ferrmion.encode.ternary_tree: 681: DEBUG: Creating Jordan-Wigner encoding tree
+2026-10-21 12:41:59,084: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,084: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:41:59,085: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,085: ferrmion.encode.ternary_tree: 576: DEBUG: Adding node zzzzzzzzzzzzz to TernaryTree
+2026-10-21 12:41:59,085: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:41:59,085: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,085: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with z.
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zz.
+2026-10-21 12:41:59,086: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzz.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzz.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzz.
+2026-10-21 12:41:59,087: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzz.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzz.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzz.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,088: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzz.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzz.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzz.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,089: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzz.
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzzz.
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree: 545: DEBUG: Setting default enumeration scheme
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,090: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,091: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree: 546: DEBUG: Child strings ['', 'z', 'zz', 'zzz', 'zzzz', 'zzzzz', 'zzzzzz', 'zzzzzzz', 'zzzzzzzz', 'zzzzzzzzz', 'zzzzzzzzzz', 'zzzzzzzzzzz', 'zzzzzzzzzzzz', 'zzzzzzzzzzzzz']
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,092: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree: 124: DEBUG: Setting enumeration scheme.
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:41:59,093: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,094: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=0q=0
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=1q=1
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=2q=2
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=3q=3
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=4q=4
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=5q=5
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=6q=6
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=7q=7
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=8q=8
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=9q=9
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=10q=10
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=11q=11
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=12q=12
+2026-10-21 12:41:59,095: ferrmion.encode.ternary_tree: 132: DEBUG: m=13q=13
+2026-10-21 12:42:02,736: ferrmion.encode.ternary_tree: 681: DEBUG: Creating Jordan-Wigner encoding tree
+2026-10-21 12:42:02,737: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,737: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:02,737: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,738: ferrmion.encode.ternary_tree: 576: DEBUG: Adding node zzzzzzzzzzzzz to TernaryTree
+2026-10-21 12:42:02,738: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:02,738: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,738: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,738: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with z.
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zz.
+2026-10-21 12:42:02,739: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzz.
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzz.
+2026-10-21 12:42:02,740: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzz.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzz.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,741: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzz.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzz.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzz.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,742: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzz.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzz.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzz.
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,743: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzzz.
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree: 545: DEBUG: Setting default enumeration scheme
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:02,744: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,745: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree: 546: DEBUG: Child strings ['', 'z', 'zz', 'zzz', 'zzzz', 'zzzzz', 'zzzzzz', 'zzzzzzz', 'zzzzzzzz', 'zzzzzzzzz', 'zzzzzzzzzz', 'zzzzzzzzzzz', 'zzzzzzzzzzzz', 'zzzzzzzzzzzzz']
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,746: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree: 124: DEBUG: Setting enumeration scheme.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,747: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=0q=0
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=1q=1
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=2q=2
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=3q=3
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=4q=4
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=5q=5
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=6q=6
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=7q=7
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=8q=8
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=9q=9
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=10q=10
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=11q=11
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=12q=12
+2026-10-21 12:42:02,748: ferrmion.encode.ternary_tree: 132: DEBUG: m=13q=13
+2026-10-21 12:42:07,665: ferrmion.encode.ternary_tree: 681: DEBUG: Creating Jordan-Wigner encoding tree
+2026-10-21 12:42:07,666: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,666: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:07,666: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree: 576: DEBUG: Adding node zzzzzzzzzzzzz to TernaryTree
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with z.
+2026-10-21 12:42:07,667: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zz.
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,668: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzz.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzz.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzz.
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:07,669: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzz.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzz.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,670: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzz.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzz.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzz.
+2026-10-21 12:42:07,671: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzz.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzz.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzzz.
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree: 545: DEBUG: Setting default enumeration scheme
+2026-10-21 12:42:07,672: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,673: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree: 546: DEBUG: Child strings ['', 'z', 'zz', 'zzz', 'zzzz', 'zzzzz', 'zzzzzz', 'zzzzzzz', 'zzzzzzzz', 'zzzzzzzzz', 'zzzzzzzzzz', 'zzzzzzzzzzz', 'zzzzzzzzzzzz', 'zzzzzzzzzzzzz']
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:07,674: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,675: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree: 124: DEBUG: Setting enumeration scheme.
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,676: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,677: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=0q=0
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=1q=1
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=2q=2
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=3q=3
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=4q=4
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=5q=5
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=6q=6
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=7q=7
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=8q=8
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=9q=9
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=10q=10
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=11q=11
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=12q=12
+2026-10-21 12:42:07,678: ferrmion.encode.ternary_tree: 132: DEBUG: m=13q=13
+2026-10-21 12:42:18,876: ferrmion.encode.ternary_tree: 681: DEBUG: Creating Jordan-Wigner encoding tree
+2026-10-21 12:42:18,876: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,877: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:18,877: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,877: ferrmion.encode.ternary_tree: 576: DEBUG: Adding node zzzzzzzzzzzzz to TernaryTree
+2026-10-21 12:42:18,877: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:18,877: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,877: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with z.
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zz.
+2026-10-21 12:42:18,878: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:18,879: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,879: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,879: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,879: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzz.
+2026-10-21 12:42:18,879: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:18,879: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzz.
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzz.
+2026-10-21 12:42:18,880: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzz.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzz.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzz.
+2026-10-21 12:42:18,881: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzz.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzz.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzz.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,882: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzz.
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 248: DEBUG: Adding child z to parent TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 257: DEBUG: Creating child node.
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 54: DEBUG: Creating TTNode with parent None and qubit label None
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 264: DEBUG: Setting node relationships.
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 199: DEBUG: Prefixing node root path with zzzzzzzzzzzzz.
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree: 545: DEBUG: Setting default enumeration scheme
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:18,883: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,884: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree: 546: DEBUG: Child strings ['', 'z', 'zz', 'zzz', 'zzzz', 'zzzzz', 'zzzzzz', 'zzzzzzz', 'zzzzzzzz', 'zzzzzzzzz', 'zzzzzzzzzz', 'zzzzzzzzzzz', 'zzzzzzzzzzzz', 'zzzzzzzzzzzzz']
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:18,885: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,886: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree: 124: DEBUG: Setting enumeration scheme.
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'z', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,887: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 326: DEBUG: Creating child strings for node TTNode (root path:'zzzzzzzzzzzzz', Qubit Index:None)
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree_node: 334: DEBUG: Sorting nodes.
+2026-10-21 12:42:18,888: ferrmion.encode.ternary_tree: 132: DEBUG: m=0q=0
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=1q=1
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=2q=2
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=3q=3
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=4q=4
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=5q=5
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=6q=6
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=7q=7
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=8q=8
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=9q=9
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=10q=10
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=11q=11
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=12q=12
+2026-10-21 12:42:18,889: ferrmion.encode.ternary_tree: 132: DEBUG: m=13q=13

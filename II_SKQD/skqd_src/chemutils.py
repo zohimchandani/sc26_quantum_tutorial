@@ -3,6 +3,18 @@ from openfermionpyscf import run_pyscf
 from openfermion import get_fermion_operator, MolecularData
 from openfermion.transforms import jordan_wigner as of_jordan_wigner
 import matplotlib.pyplot as plt
+import cudaq
+import time
+
+def run_hf_and_fci(geometry):
+    # Run Hartree-Fock to get the Hamiltonian coefficients.
+    # - We also run Full Configuration Interaction (FCI) which acts as our ground truth for the energy.
+    molecule = run_pyscf(
+        MolecularData(geometry, basis="sto-3g", multiplicity=1, charge=0),
+        run_scf=True,
+        run_fci=True,
+    )
+    return molecule
 
 def sample_krylov_evolution_circuit(pauli_words: list[str],
                                     coefficients: list[float],
@@ -217,5 +229,38 @@ def qdrift(
         / samples
     ).tolist()
     # qdrift_cnots = sum(2 * (len(w) - w.count("I") - 1) for w in qdrift_pauli_words)
+
+    return qdrift_pauli_words, qdrift_angles
+
+def sample_qdrift_terms(
+        pauli_words: np.ndarray[str],
+        coefficients: np.ndarray[float],
+        n_samples: int,
+        evolution_time: float,
+        ) -> tuple[list[cudaq.pauli_word], list[float]]:
+
+    qdrift_rng = np.random.default_rng(7)
+
+    # The identity term only adds a global phase to the time evolution, so it is
+    # left out of the circuit (it stays in the Hamiltonian for post-processing).
+    hamiltonian_terms = [i for i, w in enumerate(pauli_words) if set(w) != {"I"}]
+    hamiltonian_coefficients = coefficients[hamiltonian_terms]
+
+    # TODO: Calculate lambda
+    qdrift_lambda: float = np.abs(hamiltonian_coefficients).sum()
+
+    qdrift_terms: list[int] = qdrift_rng.choice(
+        len(hamiltonian_terms), size=n_samples, p=np.abs(hamiltonian_coefficients) / qdrift_lambda
+    )
+
+    qdrift_pauli_words: list[str] = [pauli_words[hamiltonian_terms[j]] for j in qdrift_terms]
+
+    # TODO: Create a list of the rotation angles
+    qdrift_angles: list[float] = (
+        -np.sign(hamiltonian_coefficients[qdrift_terms])
+        * qdrift_lambda
+        * evolution_time
+        / n_samples
+    ).tolist()
 
     return qdrift_pauli_words, qdrift_angles
