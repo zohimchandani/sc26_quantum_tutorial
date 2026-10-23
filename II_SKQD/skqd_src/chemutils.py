@@ -5,6 +5,109 @@ from openfermion.transforms import jordan_wigner as of_jordan_wigner
 import matplotlib.pyplot as plt
 import cudaq
 import time
+from .pre_and_postprocessing import matrix_free_eigsh_cpu
+try:
+    import cupy as cp
+
+    HAS_GPU = cp.cuda.runtime.getDeviceCount() > 0
+except Exception:
+    cp, HAS_GPU = None, False
+
+def matrix_free_diagonalise(cumulative_results, pauli_words, coefficients, exact_ground_state_energy):
+    
+    lo_energies = []
+
+    for k, result in enumerate(cumulative_results):
+        if k==0:
+            continue
+            
+        cumulative_subspace_results = result
+
+        # Convert the measurement strings into a NumPy array for post-processing.
+        configurations = np.array(
+            [list(map(int, k)) for k in cumulative_subspace_results.keys()]
+        )
+        subspace_dimension = len(configurations)
+
+        v0_np = np.random.random((subspace_dimension,)).astype(np.float64)
+        v0_np = v0_np / np.linalg.norm(v0_np)
+
+        t0 = time.perf_counter()
+
+        if HAS_GPU and cp is not None:
+            v0 = cp.asarray(v0_np, dtype=cp.complex128)
+
+            ham_data = prepare_hamiltonian_data(configurations, pauli_words, coefficients)
+            cp.get_default_memory_pool().free_all_blocks()
+            ncv = min(20, subspace_dimension - 1)
+
+            (eigenvalues,) = distributed_eigsh(
+                ham_data,
+                rank=0,
+                size=1,
+                nccl_comm_obj=None,
+                k=1,
+                which="SA",
+                ncv=ncv,
+                v0_full=v0,
+                tile_size=32,
+                return_eigenvectors=False,
+            )
+
+            eigenvalue_real = float(cp.asnumpy(eigenvalues[0]).real)
+        else:
+            print("")
+            eigenvalues = matrix_free_eigsh_cpu(
+                configurations,
+                pauli_words,
+                coefficients,
+                v0=v0_np,
+                k=1,
+                which="SA",
+                return_eigenvectors=False,
+            )
+
+            eigenvalue_real = float(eigenvalues[0].real)
+
+        lo_energies.append(eigenvalue_real)
+        print(
+            f"k={k}: subspace dimension {subspace_dimension}, "
+            f"E = {lo_energies[-1]:.6f} Ha, Error= {lo_energies[-1] - exact_ground_state_energy:.1e} Ha, "
+            f"t={time.perf_counter() - t0:.1f}"
+        )
+    return lo_energies
+
+def diagonalise_steps(configs: np.ndarray, molecule):
+    energies = np.zeros(10)
+    
+    pauli_words, coefficients = jordan_wigner(molecule)
+    for idx in range(0, 10):
+        t0 = time.perf_counter() 
+        dim = idx * 50 + 50
+        # Initial guess
+        v0_np = np.random.random((dim,)).astype(np.float64)
+        v0_np = v0_np / np.linalg.norm(v0_np)
+
+        # CPU based diagonalisation for small case.
+        try:
+          eigenvalues = matrix_free_eigsh_cpu(
+              configs[:dim],
+              pauli_words,
+              coefficients,
+              v0=v0_np,
+              k=1,
+              which="SA",
+              return_eigenvectors=False,
+          )
+
+          energies[idx:] = eigenvalues[0].real
+          print(
+              f"Configurations: {dim} Energy: {energies[idx]} (Error {energies[idx] - molecule.fci_energy:.4f}) t={time.perf_counter()-t0:.1f}"
+          )
+        except ValueError:
+          print("Diagonalisation issue")
+    print()
+    return energies
 
 def run_hf_and_fci(geometry):
     # Run Hartree-Fock to get the Hamiltonian coefficients.
@@ -74,7 +177,8 @@ def plot_qdrift_terms(required_qdrift_terms, coefficients):
     plt.xscale("log")
     plt.yscale("log")
     plt.xlabel("Evolution Time")
-    plt.legend()
+    plt.ylabel("N Terms")
+    plt.legend(title="Error")
     plt.show()
 
 def plot_ci_convergence(reference_energy, random=None, hf=None, charge=None, spin=None, skqd=None):
