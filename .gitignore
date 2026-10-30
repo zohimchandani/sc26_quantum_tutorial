@@ -8,6 +8,8 @@ I_LRZ_HPCQC/notes/
 # Python build artifacts (pip install of II_SKQD)
 build/
 *.egg-info/
+II_SKQD/jobscript.sh
+II_SKQD/skqd_run.py
 
 # MAC stuff
 .DS_Store

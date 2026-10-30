@@ -5,7 +5,7 @@ from openfermion.transforms import jordan_wigner as of_jordan_wigner
 import matplotlib.pyplot as plt
 import cudaq
 import time
-from .pre_and_postprocessing import matrix_free_eigsh_cpu
+from .pre_and_postprocessing import matrix_free_eigsh_cpu, prepare_hamiltonian_data, distributed_eigsh
 try:
     import cupy as cp
 

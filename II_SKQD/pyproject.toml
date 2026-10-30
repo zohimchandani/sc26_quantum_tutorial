@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skqd-src"
+version = "0.1.0"
+description = "Helpers for the SC26 SKQD tutorial notebook (molecules, qDRIFT, projected Hamiltonian, distributed eigensolver)"
+requires-python = ">=3.11"
+# cudaq, openfermion, openfermionpyscf, numpy, scipy, cupy and matplotlib come from cudaq-gpu-env
+# (see I_LRZ_HPCQC/conda-env.md); listing them here would let pip change those pins.
+dependencies = []
+
+[tool.setuptools]
+packages = ["skqd_src"]
