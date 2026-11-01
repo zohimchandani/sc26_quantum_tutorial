@@ -25,7 +25,7 @@ the infrastructure: where the code runs and how data moves between CPU, GPU and 
 
 You need a tutorial account (username and password, handed out at the session) or an LRZ account.
 
-1. Open the portal: <https://vm-138-246-238-164.cloud.mwn.de>
+1. Open the portal: <https://hpcqctutorial.quantum.lrz.de>
 2. Log in:
    - **Tutorial account:** enter your account email and password provided by us.
    - Please choose **Log in with Email**.
@@ -48,13 +48,11 @@ You need a tutorial account (username and password, handed out at the session) o
 
   <img src="docs/figures/jupyter-kernel.png" alt="Jupyter Notebook" width="500">
 
-Then, make sure the notebook uses the kernel named **LRZ-HPCQC**. Otherwise, change it by **Kernel → Change Kernel** and then restart the kernel.
+Then, make sure the notebook uses the correct kernel called **LRZ-HPCQC**. Otherwise, change it via **Kernel → Change Kernel** and restart it. Also, wait until the kernel status turns green and shows as idle.
 
 7. Run the cells from top to bottom.
 
-When you are done, use **File → Shut Down** (or shut down the kernel). That frees the GPU slice for others.
-
-  <img src="docs/figures/shutdown.png" alt="Shutdown Notebook" width="500">
+When you are done, please shut down the kernel before starting the next tutorial notebook.
 
 **Notes**:
 - The next two sessions (Part II: SKQD, Part III: QEC) open their own notebooks and
