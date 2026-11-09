@@ -1,3 +1,5 @@
+import tempfile
+
 import numpy as np
 from openfermionpyscf import run_pyscf
 from openfermion import get_fermion_operator, MolecularData
@@ -12,6 +14,11 @@ try:
     HAS_GPU = cp.cuda.runtime.getDeviceCount() > 0
 except Exception:
     cp, HAS_GPU = None, False
+
+# OpenFermion saves every molecule as an .hdf5 file, by default inside its own package folder.
+# That folder is read-only in a shared Python environment, and a shared folder like /tmp would
+# make users overwrite each other's files: use a private folder per Python process instead.
+MOLECULE_DIR = tempfile.mkdtemp(prefix="openfermion-")
 
 def matrix_free_diagonalise(cumulative_results, pauli_words, coefficients, exact_ground_state_energy):
     
@@ -113,7 +120,7 @@ def run_hf_and_fci(geometry):
     # Run Hartree-Fock to get the Hamiltonian coefficients.
     # - We also run Full Configuration Interaction (FCI) which acts as our ground truth for the energy.
     molecule = run_pyscf(
-        MolecularData(geometry, basis="sto-3g", multiplicity=1, charge=0),
+        MolecularData(geometry, basis="sto-3g", multiplicity=1, charge=0, data_directory=MOLECULE_DIR),
         run_scf=True,
         run_fci=True,
     )
