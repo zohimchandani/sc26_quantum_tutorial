@@ -2,6 +2,7 @@
 __pycache__/
 
 # Local admin notes (not part of the tutorial)
+tool/
 mig-config/
 I_LRZ_HPCQC/notes/
 
